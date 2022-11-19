@@ -1,0 +1,14 @@
+Cara Run:
+-Jalankan docker postgresql
+-kemudian di intellij masuk ke folder src/main/java/com/project/springproject.
+-buka class SpringProjectApplication.java.
+-run pada class tersebut.
+-jika sudah start dan tidak ada error maka berhasil dijalankan. 
+
+
+Insomnia:
+Get All = pilih GET dan request localhost:7005/api/book
+Create Book = pilih POST dan request localhost:7005/api/book
+Update Book = pilih PUT dan request localhost:7005/api/book/1 (sesuai id yang dipilih)
+Get By Status = pilih GET dan request localhost:7005/api/book/0 atau 1 (sesuai status)
+Delete Book = pilih DELETE dan request localhost:7005/api/book/4 (sesuai id yang dipilih)
